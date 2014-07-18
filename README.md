@@ -48,7 +48,8 @@ Here is some useful components and documentations :
 
 - [Google transit][GoogleGTFS] is the google page for GTFS specification
 - [MMPTR-Tutorial] is a small tutorial for gtfs and pgrouting
-
+- [Anita Graser blog][AnitaGraser] contains useful tips to calculate isochrones with pgrouting.
+- [Atelier01] : Someone did what we expect to have at end, but not complete enough, and not open-sourced
 
 Installation
 ------------
@@ -67,4 +68,5 @@ Affero GPL
 [PGR]:http://pgrouting.org
 [gtfs2pgrouting]:https://github.com/justjkk/gtfs2pgrouting
 [MMPTR-Tutorial]:https://github.com/pgRouting/pgrouting/wiki/MMPTR-Tutorial
-
+[AnitaGraser]:http://anitagraser.com/tag/pgrouting/
+[Atelier01]:http://www.atelier01.net/metro/paris/isochrone?latlng=48.86191977558759,2.3466110229492188
