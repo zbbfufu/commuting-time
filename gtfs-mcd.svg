@@ -1,0 +1,181 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="793" height="674" viewBox="0 0 793 674"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">
+
+<desc>Généré par Mocodo 1.6.1 le Wed, 16 Jul 2014 00:52:34</desc>
+
+<rect x="0" y="0" width="793" height="674" fill="none" stroke="none" stroke-width="0"/>
+
+<!-- Association agency_of_a_route -->
+<line x1="396" y1="65" x2="396" y2="169" stroke="#4C3D30" stroke-width="2"/>
+<text x="401.0" y="137.9" fill="#5C4827" font-family="Verdana" font-size="12">1,1</text>
+<path d="M 396.0 117.0 L 402.0 129.0 L 396.0 125.0 L 390.0 129.0 Z" fill="#4C3D30" stroke-width="0"/>
+<line x1="396" y1="297" x2="396" y2="169" stroke="#4C3D30" stroke-width="2"/>
+<text x="401.0" y="209.9" fill="#5C4827" font-family="Verdana" font-size="12">0,1</text>
+<g id="association-agency_of_a_route">
+	<path d="M 447 145 a 14 14 90 0 1 14 14 V 169 h -130 V 159 a 14 14 90 0 1 14 -14" fill="#CE9F6F" stroke="#CE9F6F" stroke-width="0"/>
+	<path d="M 461 169 v 10 a 14 14 90 0 1 -14 14 H 345 a 14 14 90 0 1 -14 -14 V 169 H 130" fill="#E2BE9F" stroke="#E2BE9F" stroke-width="0"/>
+	<rect x="331" y="145" width="130" height="48" fill="None" rx="14" stroke="#896C39" stroke-width="2"/>
+	<line x1="331" y1="169" x2="461" y2="169" stroke="#896C39" stroke-width="1"/>
+	<text x="338" y="161.9" fill="#7F5D3B" font-family="Verdana" font-size="12">agency_of_a_route</text>
+</g>
+
+<!-- Association trip_on_a_route -->
+<line x1="478" y1="569" x2="396" y2="425" stroke="#4C3D30" stroke-width="2"/>
+<text x="448.263888889" y="505.9" fill="#5C4827" font-family="Verdana" font-size="12">1,1</text>
+<line x1="396" y1="297" x2="396" y2="425" stroke="#4C3D30" stroke-width="2"/>
+<text x="401.0" y="393.9" fill="#5C4827" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-trip_on_a_route">
+	<path d="M 438 401 a 14 14 90 0 1 14 14 V 425 h -112 V 415 a 14 14 90 0 1 14 -14" fill="#CE9F6F" stroke="#CE9F6F" stroke-width="0"/>
+	<path d="M 452 425 v 10 a 14 14 90 0 1 -14 14 H 354 a 14 14 90 0 1 -14 -14 V 425 H 112" fill="#E2BE9F" stroke="#E2BE9F" stroke-width="0"/>
+	<rect x="340" y="401" width="112" height="48" fill="None" rx="14" stroke="#896C39" stroke-width="2"/>
+	<line x1="340" y1="425" x2="452" y2="425" stroke="#896C39" stroke-width="1"/>
+	<text x="347" y="417.9" fill="#7F5D3B" font-family="Verdana" font-size="12">trip_on_a_route</text>
+</g>
+
+<!-- Association STOPTIME -->
+<line x1="478" y1="569" x2="333" y2="569" stroke="#4C3D30" stroke-width="2"/>
+<text x="406" y="585.9" fill="#5C4827" font-family="Verdana" font-size="12">1,1</text>
+<line x1="188" y1="569" x2="333" y2="569" stroke="#4C3D30" stroke-width="2"/>
+<text x="239" y="585.9" fill="#5C4827" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-STOPTIME">
+	<path d="M 387 497 a 14 14 90 0 1 14 14 V 521 h -136 V 511 a 14 14 90 0 1 14 -14" fill="#CE9F6F" stroke="#CE9F6F" stroke-width="0"/>
+	<path d="M 401 521 v 106 a 14 14 90 0 1 -14 14 H 279 a 14 14 90 0 1 -14 -14 V 521 H 136" fill="#E2BE9F" stroke="#E2BE9F" stroke-width="0"/>
+	<rect x="265" y="497" width="136" height="144" fill="None" rx="14" stroke="#896C39" stroke-width="2"/>
+	<line x1="265" y1="521" x2="401" y2="521" stroke="#896C39" stroke-width="1"/>
+	<text x="302" y="513.9" fill="#7F5D3B" font-family="Verdana" font-size="12">STOPTIME</text>
+	<text x="272" y="537.9" fill="#7F5D3B" font-family="Verdana" font-size="12">arrival_time</text>
+	<text x="272" y="553.9" fill="#7F5D3B" font-family="Verdana" font-size="12">departure_time</text>
+	<text x="272" y="569.9" fill="#7F5D3B" font-family="Verdana" font-size="12">stop_sequence</text>
+	<text x="272" y="585.9" fill="#7F5D3B" font-family="Verdana" font-size="12">stop_headsign</text>
+	<text x="272" y="601.9" fill="#7F5D3B" font-family="Verdana" font-size="12">pickup_type</text>
+	<text x="272" y="617.9" fill="#7F5D3B" font-family="Verdana" font-size="12">drop_off_type</text>
+	<text x="272" y="633.9" fill="#7F5D3B" font-family="Verdana" font-size="12">shape_dist_traveled</text>
+</g>
+
+<!-- Association service_of_a_trip -->
+<line x1="745" y1="569" x2="615" y2="569" stroke="#4C3D30" stroke-width="2"/>
+<text x="680" y="585.9" fill="#5C4827" font-family="Verdana" font-size="12">1,1</text>
+<line x1="478" y1="569" x2="615" y2="569" stroke="#4C3D30" stroke-width="2"/>
+<text x="529" y="585.9" fill="#5C4827" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-service_of_a_trip">
+	<path d="M 661 545 a 14 14 90 0 1 14 14 V 569 h -120 V 559 a 14 14 90 0 1 14 -14" fill="#CE9F6F" stroke="#CE9F6F" stroke-width="0"/>
+	<path d="M 675 569 v 10 a 14 14 90 0 1 -14 14 H 569 a 14 14 90 0 1 -14 -14 V 569 H 120" fill="#E2BE9F" stroke="#E2BE9F" stroke-width="0"/>
+	<rect x="555" y="545" width="120" height="48" fill="None" rx="14" stroke="#896C39" stroke-width="2"/>
+	<line x1="555" y1="569" x2="675" y2="569" stroke="#896C39" stroke-width="1"/>
+	<text x="562" y="561.9" fill="#7F5D3B" font-family="Verdana" font-size="12">service_of_a_trip</text>
+</g>
+
+<!-- Association parent_station -->
+<path d="M188 569 C 156.0 601.0 92.0 601.0 60 569" fill="none" stroke="#4C3D30" stroke-width="2"/>
+<text x="116" y="540.9" fill="#5C4827" font-family="Verdana" font-size="12">1,1</text>
+<path d="M188 569 C 156.0 537.0 92.0 537.0 60 569" fill="none" stroke="#4C3D30" stroke-width="2"/>
+<text x="116" y="606.9" fill="#5C4827" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-parent_station">
+	<path d="M 97 545 a 14 14 90 0 1 14 14 V 569 h -102 V 559 a 14 14 90 0 1 14 -14" fill="#CE9F6F" stroke="#CE9F6F" stroke-width="0"/>
+	<path d="M 111 569 v 10 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 569 H 102" fill="#E2BE9F" stroke="#E2BE9F" stroke-width="0"/>
+	<rect x="9" y="545" width="102" height="48" fill="None" rx="14" stroke="#896C39" stroke-width="2"/>
+	<line x1="9" y1="569" x2="111" y2="569" stroke="#896C39" stroke-width="1"/>
+	<text x="16" y="561.9" fill="#7F5D3B" font-family="Verdana" font-size="12">parent_station</text>
+</g>
+
+<!-- Entity ROUTE -->
+<g id="entity-ROUTE">
+	<g id="frame-ROUTE">
+		<rect x="335" y="217" width="122" height="24" fill="#FAA945" stroke="#FAA945" stroke-width="0"/>
+		<rect x="335" y="241" width="122" height="136" fill="#FFB94E" stroke="#FFB94E" stroke-width="0"/>
+		<rect x="335" y="217" width="122" height="160" fill="None" stroke="#CB7E1F" stroke-width="2"/>
+		<line x1="335" y1="241" x2="457" y2="241" stroke="#CB7E1F" stroke-width="1"/>
+	</g>
+	<text x="375" y="233.9" fill="#645530" font-family="Verdana" font-size="12">ROUTE</text>
+	<text x="340" y="257.9" fill="#645530" font-family="Verdana" font-size="12">route_id</text>
+	<line x1="340" y1="260.0" x2="390" y2="260.0" stroke="#645530" stroke-width="1"/>
+	<text x="340" y="273.9" fill="#645530" font-family="Verdana" font-size="12">route_short_name</text>
+	<text x="340" y="289.9" fill="#645530" font-family="Verdana" font-size="12">route_long_name</text>
+	<text x="340" y="305.9" fill="#645530" font-family="Verdana" font-size="12">route_desc</text>
+	<text x="340" y="321.9" fill="#645530" font-family="Verdana" font-size="12">route_type</text>
+	<text x="340" y="337.9" fill="#645530" font-family="Verdana" font-size="12">route_url</text>
+	<text x="340" y="353.9" fill="#645530" font-family="Verdana" font-size="12">route_color</text>
+	<text x="340" y="369.9" fill="#645530" font-family="Verdana" font-size="12">route_text_color</text>
+</g>
+
+<!-- Entity AGENCY -->
+<g id="entity-AGENCY">
+	<g id="frame-AGENCY">
+		<rect x="338" y="9" width="116" height="24" fill="#FAA945" stroke="#FAA945" stroke-width="0"/>
+		<rect x="338" y="33" width="116" height="88" fill="#FFB94E" stroke="#FFB94E" stroke-width="0"/>
+		<rect x="338" y="9" width="116" height="112" fill="None" stroke="#CB7E1F" stroke-width="2"/>
+		<line x1="338" y1="33" x2="454" y2="33" stroke="#CB7E1F" stroke-width="1"/>
+	</g>
+	<text x="371" y="25.9" fill="#645530" font-family="Verdana" font-size="12">AGENCY</text>
+	<text x="343" y="49.9" fill="#645530" font-family="Verdana" font-size="12">agency_id</text>
+	<line x1="343" y1="52.0" x2="404" y2="52.0" stroke="#645530" stroke-width="1"/>
+	<text x="343" y="65.9" fill="#645530" font-family="Verdana" font-size="12">agency_name</text>
+	<text x="343" y="81.9" fill="#645530" font-family="Verdana" font-size="12">agency_url</text>
+	<text x="343" y="97.9" fill="#645530" font-family="Verdana" font-size="12">agency_timezone</text>
+	<text x="343" y="113.9" fill="#645530" font-family="Verdana" font-size="12">agency_lang</text>
+</g>
+
+<!-- Entity STOP -->
+<g id="entity-STOP">
+	<g id="frame-STOP">
+		<rect x="142" y="489" width="92" height="24" fill="#FAA945" stroke="#FAA945" stroke-width="0"/>
+		<rect x="142" y="513" width="92" height="136" fill="#FFB94E" stroke="#FFB94E" stroke-width="0"/>
+		<rect x="142" y="489" width="92" height="160" fill="None" stroke="#CB7E1F" stroke-width="2"/>
+		<line x1="142" y1="513" x2="234" y2="513" stroke="#CB7E1F" stroke-width="1"/>
+	</g>
+	<text x="172" y="505.9" fill="#645530" font-family="Verdana" font-size="12">STOP</text>
+	<text x="147" y="529.9" fill="#645530" font-family="Verdana" font-size="12">stop_id</text>
+	<line x1="147" y1="532.0" x2="191" y2="532.0" stroke="#645530" stroke-width="1"/>
+	<text x="147" y="545.9" fill="#645530" font-family="Verdana" font-size="12">stop_name</text>
+	<text x="147" y="561.9" fill="#645530" font-family="Verdana" font-size="12">stop_desc</text>
+	<text x="147" y="577.9" fill="#645530" font-family="Verdana" font-size="12">stop_lat</text>
+	<text x="147" y="593.9" fill="#645530" font-family="Verdana" font-size="12">stop_lon</text>
+	<text x="147" y="609.9" fill="#645530" font-family="Verdana" font-size="12">zone_id</text>
+	<text x="147" y="625.9" fill="#645530" font-family="Verdana" font-size="12">stop_url</text>
+	<text x="147" y="641.9" fill="#645530" font-family="Verdana" font-size="12">location_type</text>
+</g>
+
+<!-- Entity TRIP -->
+<g id="entity-TRIP">
+	<g id="frame-TRIP">
+		<rect x="432" y="513" width="92" height="24" fill="#FAA945" stroke="#FAA945" stroke-width="0"/>
+		<rect x="432" y="537" width="92" height="88" fill="#FFB94E" stroke="#FFB94E" stroke-width="0"/>
+		<rect x="432" y="513" width="92" height="112" fill="None" stroke="#CB7E1F" stroke-width="2"/>
+		<line x1="432" y1="537" x2="524" y2="537" stroke="#CB7E1F" stroke-width="1"/>
+	</g>
+	<text x="464" y="529.9" fill="#645530" font-family="Verdana" font-size="12">TRIP</text>
+	<text x="437" y="553.9" fill="#645530" font-family="Verdana" font-size="12">trip_id</text>
+	<line x1="437" y1="556.0" x2="476" y2="556.0" stroke="#645530" stroke-width="1"/>
+	<text x="437" y="569.9" fill="#645530" font-family="Verdana" font-size="12">trip_headsign</text>
+	<text x="437" y="585.9" fill="#645530" font-family="Verdana" font-size="12">direction_id</text>
+	<text x="437" y="601.9" fill="#645530" font-family="Verdana" font-size="12">block_id</text>
+	<text x="437" y="617.9" fill="#645530" font-family="Verdana" font-size="12">shape_id</text>
+</g>
+
+<!-- Entity SERVICE -->
+<g id="entity-SERVICE">
+	<g id="frame-SERVICE">
+		<rect x="706" y="473" width="78" height="24" fill="#FAA945" stroke="#FAA945" stroke-width="0"/>
+		<rect x="706" y="497" width="78" height="168" fill="#FFB94E" stroke="#FFB94E" stroke-width="0"/>
+		<rect x="706" y="473" width="78" height="192" fill="None" stroke="#CB7E1F" stroke-width="2"/>
+		<line x1="706" y1="497" x2="784" y2="497" stroke="#CB7E1F" stroke-width="1"/>
+	</g>
+	<text x="718" y="489.9" fill="#645530" font-family="Verdana" font-size="12">SERVICE</text>
+	<text x="711" y="513.9" fill="#645530" font-family="Verdana" font-size="12">service_id</text>
+	<line x1="711" y1="516.0" x2="772" y2="516.0" stroke="#645530" stroke-width="1"/>
+	<text x="711" y="529.9" fill="#645530" font-family="Verdana" font-size="12">monday</text>
+	<text x="711" y="545.9" fill="#645530" font-family="Verdana" font-size="12">tuesday</text>
+	<text x="711" y="561.9" fill="#645530" font-family="Verdana" font-size="12">wednesday</text>
+	<text x="711" y="577.9" fill="#645530" font-family="Verdana" font-size="12">thursday</text>
+	<text x="711" y="593.9" fill="#645530" font-family="Verdana" font-size="12">friday</text>
+	<text x="711" y="609.9" fill="#645530" font-family="Verdana" font-size="12">saturday</text>
+	<text x="711" y="625.9" fill="#645530" font-family="Verdana" font-size="12">sunday</text>
+	<text x="711" y="641.9" fill="#645530" font-family="Verdana" font-size="12">start_date</text>
+	<text x="711" y="657.9" fill="#645530" font-family="Verdana" font-size="12">end_date</text>
+</g>
+</svg>
