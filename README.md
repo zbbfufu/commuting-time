@@ -44,6 +44,7 @@ Here is some useful components and documentations :
 
 - [postGIS][PGIS] and [pgRouting project][PGR] are geographical and routing extensions for [postgresql][PG] (note : both available as debian package)
 - [gtfs2pgrouting] is for importing GTFS into pgrouting
+- [OpenLayers 3][ol3] is a js lib to display data layers over geo maps
 
 
 - [Google transit][GoogleGTFS] is the google page for GTFS specification
@@ -70,3 +71,4 @@ Affero GPL
 [MMPTR-Tutorial]:https://github.com/pgRouting/pgrouting/wiki/MMPTR-Tutorial
 [AnitaGraser]:http://anitagraser.com/tag/pgrouting/
 [Atelier01]:http://www.atelier01.net/metro/paris/isochrone?latlng=48.86191977558759,2.3466110229492188
+[ol3]:http://ol3js.org/
