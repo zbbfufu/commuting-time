@@ -1,5 +1,8 @@
 commuting-time
 ==============
+
+![Isochrone map from Atelier01](/atelier01-screenshot.png?raw=true)
+
 English
 -------
 
@@ -50,7 +53,7 @@ Here is some useful components and documentations :
 - [Google transit][GoogleGTFS] is the google page for GTFS specification
 - [MMPTR-Tutorial] is a small tutorial for gtfs and pgrouting
 - [Anita Graser blog][AnitaGraser] contains useful tips to calculate isochrones with pgrouting.
-- [Atelier01] : Someone did what we expect to have at end, but not complete enough, and not open-sourced
+- [Atelier01] : Someone did what we expect to have at end, but not complete enough, and not open-sourced :
 
 Installation
 ------------
