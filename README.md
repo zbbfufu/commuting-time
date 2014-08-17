@@ -24,8 +24,10 @@ Français
 
 Status updates
 --------------
-- *2014-07-17* : project is alive
+- *2014-08-17* : create a dockerfile ready for pgrouting. GTFS datas successfully loaded in database with gtfs2pgrouting, but not computed for routing !? Should investigate. If gtfs2pgrouting do not more than loading in db, it should be better to load gtfs from web application in front of postgresql.
 - *2014-07-18* : fill this README and push a proof of concept over openlayer and geojson
+- *2014-07-17* : project is alive
+
 
 Data
 ----
