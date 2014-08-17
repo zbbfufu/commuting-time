@@ -1,0 +1,12 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+DUA853,"Paris Nord",http://www.transilien.com,Europe/Paris,fr
+DUA803,"RER C",http://www.transilien.com,Europe/Paris,fr
+DUA804,"RER D",http://www.transilien.com,Europe/Paris,fr
+DUA852,"Paris Rive Gauche",http://www.transilien.com,Europe/Paris,fr
+DUA854,"Paris St Lazare",http://www.transilien.com,Europe/Paris,fr
+DUA805,"RER E",http://www.transilien.com,Europe/Paris,fr
+DUA851,"Paris Sud Est",http://www.transilien.com,Europe/Paris,fr
+DUA850,"Paris Est",http://www.transilien.com,Europe/Paris,fr
+DUA855,"La Verrière - La Défense",http://www.transilien.com,Europe/Paris,fr
+DUA802,"RER B",http://www.transilien.com,Europe/Paris,fr
+DUA801,"RER A",http://www.transilien.com,Europe/Paris,fr
