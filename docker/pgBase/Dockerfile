@@ -7,11 +7,11 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y apt-utils
 RUN DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y postgresql-9.3-pgrouting phppgadmin 
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y git make gcc libpq-dev
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y postgresql-9.3-pgrouting phppgadmin monit git make gcc libpq-dev
 
-RUN echo "local all all md5" > /etc/postgresql/9.3/main/pg_hba.conf
-RUN echo "host all all 0.0.0.0/0 md5" >> /etc/postgresql/9.3/main/pg_hba.conf
+RUN echo "local all all trust" > /etc/postgresql/9.3/main/pg_hba.conf && \
+	echo "host all all 0.0.0.0/0 md5" >> /etc/postgresql/9.3/main/pg_hba.conf && \
+	echo "host all all ::1/0 md5" >> /etc/postgresql/9.3/main/pg_hba.conf
 
 RUN service postgresql start && \
     su postgres -c "psql -c \"create user docker with password 'docker';\"" && \
@@ -21,8 +21,14 @@ RUN service postgresql start && \
     service postgresql stop
 
 
-RUN sed -i.bak '/^allow/d;s/# allow/allow/' /etc/apache2/conf.d/phppgadmin
-RUN ln -s /etc/apache2/conf.d/phppgadmin /etc/apache2/conf-enabled/phppgadmin.conf
+RUN sed -i.bak '/^allow/d;s/# allow/allow/' /etc/apache2/conf.d/phppgadmin && \
+	ln -s /etc/apache2/conf.d/phppgadmin /etc/apache2/conf-enabled/phppgadmin.conf
+
+
+RUN sed -i.bak 's/^\s*set daemon/set init\n# set daemon/' /etc/monit/monitrc
+ADD monit-apache.conf /etc/monit/conf.d/
+ADD monit-postgres.conf /etc/monit/conf.d/
+
 
 ADD data/ /data
 WORKDIR /data
@@ -34,10 +40,8 @@ RUN service postgresql start && \
 	./Release/gtfs2pgrouting -d comtimes -u docker -p docker /data/gtfs-transilien/ && \
 	service postgresql stop
 
-# FOR BUILD ONLY
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y vim
-
 EXPOSE 5432
 EXPOSE 80
 
-CMD ["/bin/bash"]
+CMD ["/usr/bin/monit", "-d", "10", "-Ic", "/etc/monit/monitrc"]
+
