@@ -35,9 +35,11 @@ Data
 This project targets [GTFS][GTFS] as data source format.
 Here are some provider for thoses datas :
 
-* https://ressources.data.sncf.com/explore/dataset/sncf-ter-gtfs/ : French regional trains
-* https://ressources.data.sncf.com/explore/dataset/sncf-intercites-gtfs/ : French "city-to-city" trains
-* https://ressources.data.sncf.com/explore/dataset/sncf-transilien-gtfs/ : public transit (trains, subway, buses, streetcar) in Paris, France
+* http://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/ : public transit from all operators associated with the "stif" association, Île-de-France, France.
+* http://data.ratp.fr/explore/dataset/offre-transport-de-la-ratp-format-gtfs/ : public transit operated by RATP in Paris proper, France
+* https://ressources.data.sncf.com/explore/dataset/sncf-ter-gtfs/ : French regional trains operated by SNCF
+* https://ressources.data.sncf.com/explore/dataset/sncf-intercites-gtfs/ : French "city-to-city" trains operated by SNCF
+* https://ressources.data.sncf.com/explore/dataset/sncf-transilien-gtfs/ : public transit (trains, subway, buses, streetcar) operated by SNCF in Île-de-France, France
 * https://ressources.data.sncf.com/explore/dataset/sncf-tram-train-ter-pdl-gtfs/ : public transit in Pays-de-la-Loire, France
 * http://data.keolis-rennes.com/fr/les-donnees/donnees-telechargeables.html : public transit in Rennes, France
 
@@ -51,8 +53,7 @@ Here is some useful components and documentations :
 
 - [postGIS][PGIS] and [pgRouting project][PGR] are geographical and routing extensions for [postgresql][PG] (note : both available as debian package)
 - [gtfs2pgrouting] is for importing GTFS into pgrouting
-- [OpenLayers 3][ol3] is a js lib to display data layers over geo maps
-
+- [OpenLayers 3][ol3] and [LeafLetJS][leafletjs]  are js libs to display data layers over geo maps
 
 - [Google transit][GoogleGTFS] is the google page for GTFS specification
 - [MMPTR-Tutorial] is a small tutorial for gtfs and pgrouting
@@ -79,3 +80,4 @@ Affero GPL
 [AnitaGraser]:http://anitagraser.com/tag/pgrouting/
 [Atelier01]:http://www.atelier01.net/metro/paris/isochrone?latlng=48.86191977558759,2.3466110229492188
 [ol3]:http://openlayers.org
+[leafletjs]:http://leafletjs.com
