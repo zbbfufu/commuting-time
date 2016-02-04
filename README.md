@@ -35,9 +35,10 @@ Data
 This project targets [GTFS][GTFS] as data source format.
 Here are some provider for thoses datas :
 
-* http://ressources.data.sncf.com/explore/dataset/sncf-ter-gtfs/ : French regional trains
-* http://ressources.data.sncf.com/explore/dataset/sncf-intercites-gtfs/ : French "city-to-city" trains
-* http://ressources.data.sncf.com/explore/dataset/sncf-horaires-des-lignes-transilien/ : public transit (trains, subway, buses, streetcar) in Paris, France
+* https://ressources.data.sncf.com/explore/dataset/sncf-ter-gtfs/ : French regional trains
+* https://ressources.data.sncf.com/explore/dataset/sncf-intercites-gtfs/ : French "city-to-city" trains
+* https://ressources.data.sncf.com/explore/dataset/sncf-transilien-gtfs/ : public transit (trains, subway, buses, streetcar) in Paris, France
+* https://ressources.data.sncf.com/explore/dataset/sncf-tram-train-ter-pdl-gtfs/ : public transit in Pays-de-la-Loire, France
 * http://data.keolis-rennes.com/fr/les-donnees/donnees-telechargeables.html : public transit in Rennes, France
 
 Feel free to add other providers :)
@@ -56,7 +57,7 @@ Here is some useful components and documentations :
 - [Google transit][GoogleGTFS] is the google page for GTFS specification
 - [MMPTR-Tutorial] is a small tutorial for gtfs and pgrouting
 - [Anita Graser blog][AnitaGraser] contains useful tips to calculate isochrones with pgrouting.
-- [Atelier01] : Someone did what we expect to have at end, but not complete enough, and not open-sourced :
+- [Atelier01] : Someone did what we expect to have at end, but not complete enough, and not open-sourced
 
 Installation
 ------------
@@ -77,4 +78,4 @@ Affero GPL
 [MMPTR-Tutorial]:https://github.com/pgRouting/pgrouting/wiki/MMPTR-Tutorial
 [AnitaGraser]:http://anitagraser.com/tag/pgrouting/
 [Atelier01]:http://www.atelier01.net/metro/paris/isochrone?latlng=48.86191977558759,2.3466110229492188
-[ol3]:http://ol3js.org/
+[ol3]:http://openlayers.org
